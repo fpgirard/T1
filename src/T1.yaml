@@ -1,0 +1,13 @@
+# insert your T1 device_id below
+alias: T1 Valve Loop with Delay
+sequence:
+  - repeat:
+      count: 100
+      sequence:
+        - action: switch.toggle
+          target:
+            device_id: <your_t1_device_id>
+          data: {}
+        - delay: "00:00:30"
+mode: single
+description: ""
