@@ -40,7 +40,7 @@ module base() {
      }
      newshark();    // shark(), newshark(), other mounting sizes modules go here.
      mirror2 ([1,0,0]) translate([22.5,0,oh/2]) rotate([-90,0,0]) screw_hole("M5,40",head="socket",counterbore=12, $fn=32, $slop=0.0) position(BOT) nut_trap_inline(15);  // pipe bolt holes
-     translate ([0,bolt_offset,13]) rotate([0,90,0]) screw_hole("M5,35",head="socket",counterbore=8, $fn=32, $slop=0.0) position(BOT) nut_trap_inline(10);  // aqara bolt holes
+     translate ([0,bolt_offset,13]) rotate([0,-90,0]) screw_hole("M5,35",head="socket",counterbore=8, $fn=32, $slop=0.0) position(BOT) nut_trap_inline(8);  // aqara bolt holes
      translate([-40,-1.5,0]) cube([80,3,40]); // collar slit
      translate([-aqara_w/2,-50,-10]) cube([aqara_w,aqara_d,aqara_h+20]);
   }    
