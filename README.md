@@ -19,20 +19,18 @@ This repository has the following directories:
 * stl \-	various .stl files for different valve bodies for both the Aqara and Tuya controllers   
 * doc \- 	installation instructions and other supporting documents (images).
 
-EcoNet offers the following alternate mounting brackets ($30/each):
+Current valves supported for this project are the Sharkbite 3/4" valves (old and new) but if [we follow EcoNet](https://cdn.shopify.com/s/files/1/0929/0448/9329/files/Alternate-Kits-01_1.jpg), the following alternate mounting brackets might be next:
 
 * HC2XXL Mounting Kit for Large Valves
 * 3/4” Propress Mounting Kit for ¾” Propress Valves
 * 1” Propress Mounting Kit for 1” Propress Valves
-* 1-1/4” Propress Mounting Kit for 11/4” Propress Valves
-* 1-1/2” Propress Mounting Kit for 11/2” Propress Valves
-* HC3PEX0.5 Mounting Kit for Pex B Tab Ring Valves
-* HC3PEX0.75 Mounting Kit for Pex B Tab Ring Valves
-* HC3PEX1 Mounting Kit for Pex B Tab Ring Valves
-* Other - Semi-Custom - send your valve body measurements, a photo, and manufacturer’s make and model information to [fpgirard@gmail.com](mailto:fpgirard@gmail.com).  
-
+* 1-1/4” Propress Mounting Kit for 1-1/4” Propress Valves
+* 1-1/2” Propress Mounting Kit for 1-1/2” Propress Valves
+* HC3PEX0.5 Mounting Kit for Pex B 1/2" Tab Ring Valves
+* HC3PEX0.75 Mounting Kit for Pex B 3/4" Tab Ring Valves
+* HC3PEX1 Mounting Kit for Pex B 1" Tab Ring Valves
+* Other - Send your valve body measurements, a photo, and manufacturer’s make and model information to [fpgirard@gmail.com](mailto:fpgirard@gmail.com).  
 
 ![Alt text](doc/scad.png)
 ![Aqara controller](doc/aqara.png)
 ![Tuya controller](doc/tuya.png)
-
