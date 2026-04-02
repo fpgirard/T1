@@ -33,8 +33,10 @@ module base() {
      }
      //cutout(model="A1", tuya=false, d1=25.5, d2=32.7,d3=d2);    // Aqara (A) with original sharkbite (1)
      //cutout(model="A2", tuya=false, d1=25.5, d2=32.7,d3=d2);    // Aqara (A) with new sharkbite (2)
-     //cutout(model="T1", tuya=true, d1=25.5, d2=32.7,d3=d2);    // Tuya (T) with original sharkbite (1)
-     cutout(model="T2", tuya=true, d1=25.5, d2=32.7,d3=33.5);    // Tuya (T) with new sharkbite (2)
+     //cutout(model="T1", tuya=true, d1=25.5, d2=32.7, d3=d2);     // Tuya (T) with original sharkbite (1)
+     //cutout(model="T2", tuya=true, d1=25.5, d2=32.7, d3=33.5);   // Tuya (T) with new sharkbite (2)
+     //cutout(model="A3", tuya=false, d1=32.7, d2=32.7, d3=d2); translate([0,0,8]) rotate([0,0,90]) cylinder(d = 31 / cos(30), h = 20, $fn = 6); // Aqara with WATTS (W) LFFBV-3C-M1
+     cutout(model="T3", tuya=true, d1=32.7, d2=32.7, d3=d2); translate([0,0,8]) rotate([0,0,90]) cylinder(d = 31 / cos(30), h = 20, $fn = 6); // Tuya with WATTS (W) LFFBV-3C-M1
      
      // cutouts common across all valve types
      mirror2 ([1,0,0]) translate([22.5,0,oh/2]) rotate([-90,0,0]) screw_hole("M5,40",head="socket",counterbore=14, $fn=32, $slop=0.0) position(BOT) nut_trap_inline(18);  // pipe bolts
