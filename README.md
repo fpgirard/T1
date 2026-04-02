@@ -20,7 +20,7 @@ This repository has the following directories:
 [<code>stl</code>](https://github.com/fpgirard/Aqara-Tuya/tree/main/stl) contains various .stl files for different valve bodies for both the Aqara and Tuya controllers   
 [<code>doc</code>](https://github.com/fpgirard/Aqara-Tuya/tree/main/doc) has installation instructions and other supporting documents (images).
 
-Current valves supported for this project are the Sharkbite 3/4" valves (old and new) but if [we follow EcoNet](https://cdn.shopify.com/s/files/1/0929/0448/9329/files/Alternate-Kits-01_1.jpg), the following alternate mounting brackets might be next:
+Current valves supported for this project are the Sharkbite 3/4" valves (old and new) and the Watts 3/4" LFFBV-3C-M1 but if [we follow EcoNet](https://cdn.shopify.com/s/files/1/0929/0448/9329/files/Alternate-Kits-01_1.jpg), the following alternate mounting brackets might be next:
 
 * HC2XXL Mounting Kit for Large Valves
 * 3/4” Propress Mounting Kit for ¾” Propress Valves
